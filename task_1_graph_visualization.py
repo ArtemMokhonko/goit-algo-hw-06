@@ -17,7 +17,7 @@ def visualize_graph():
     labels = nx.get_edge_attributes(G, 'weight')
     nx.draw_networkx_edge_labels(G, pos, edge_labels=labels)
     
-    plt.title('Граф обласних центрів України з вагами (відстанями)')
+    plt.title('Граф обласних центрів та деяких міст України з вагами (відстанями)')
     plt.xlim(21, 41)
     plt.ylim(44, 53)
     plt.show()
